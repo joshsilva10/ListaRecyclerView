@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        setTitle("LISTA DE PERSONAS")
 
         val btOpen: FloatingActionButton = findViewById(R.id.bt_add)
          btOpen.setOnClickListener {
